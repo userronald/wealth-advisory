@@ -1,0 +1,51 @@
+[
+  {
+    "id": "learn-sip",
+    "title": "What is SIP (Systematic Investment Plan)?",
+    "category": "Investments",
+    "description": "A Systematic Investment Plan (SIP) is an investment mode offered by mutual funds. Instead of committing a large lump sum, a SIP allows you to invest a fixed amount regularly (monthly or weekly). This strategy leverages market volatility through rupee cost averaging (buying more units when prices are low and fewer when high) to let your wealth compound smoothly over time.",
+    "videoUrl": "https://www.youtube.com/embed/z3pD3wUo3_w"
+  },
+  {
+    "id": "learn-fd",
+    "title": "What is FD (Fixed Deposit)?",
+    "category": "Savings",
+    "description": "A Fixed Deposit (FD) is a secure investment offered by banks and post offices where you lock in a lump sum for a fixed period at a guaranteed interest rate. Because FDs are completely immune to equity market fluctuations, they serve as the gold standard for capital preservation and stable, predictable returns.",
+    "videoUrl": "https://www.youtube.com/embed/g2qJg8g0wK0"
+  },
+  {
+    "id": "learn-health-ins",
+    "title": "What is Health Insurance?",
+    "category": "Protection",
+    "description": "Health insurance is a vital protection contract that covers medical and surgical expenses incurred during hospitalization. It safeguards your accumulated wealth from being severely drained by unexpected healthcare crises, offering a cashless treatment network and essential tax deductions under standard government rules.",
+    "videoUrl": "https://www.youtube.com/embed/rP2ZJ_g7Xms"
+  },
+  {
+    "id": "learn-term-ins",
+    "title": "What is Term Insurance?",
+    "category": "Protection",
+    "description": "Term Insurance is the purest and most economical form of life insurance. It provides dedicated high financial coverage (death benefit) to your nominees for a specific time period in exchange for a low, fixed premium. It serves as a primary pillar for family dependency protection and long-term retirement security.",
+    "videoUrl": "https://www.youtube.com/embed/rP2ZJ_g7Xms"
+  },
+  {
+    "id": "learn-emergency-fund",
+    "title": "Why Emergency Fund Matters",
+    "category": "Wealth Basics",
+    "description": "An emergency fund is a secure, highly liquid cash reserve (typically 3 to 6 months of living expenses) set aside for unforeseen life events like a medical emergency, car breakdown, or temporary job loss. It acts as your primary safety net, protecting your long-term growth assets from premature liquidation.",
+    "videoUrl": "https://www.youtube.com/embed/k-g31y8V6P0"
+  },
+  {
+    "id": "learn-chit-risks",
+    "title": "Understanding Chit Fund Risks",
+    "category": "Traditional",
+    "description": "Chit funds are traditional rotating savings-and-credit models. While they offer quick credit biddings for emergencies, they carry substantial risks. Because they lack the rigorous regulatory safeguards of commercial banks, they expose your capital to subscriber default risks, bidding yield losses, and promoter fraud.",
+    "videoUrl": "https://www.youtube.com/embed/p1o1wJ95C60"
+  },
+  {
+    "id": "learn-gold-saving",
+    "title": "Gold Saving Basics",
+    "category": "Wealth Basics",
+    "description": "Gold saving has historically served as a hedge against inflation and economic volatility. Today, you can invest in gold safely without physical storage overheads using Sovereign Gold Bonds (SGBs) or Digital Gold. These modern formats track gold prices securely while offering additional annual yields.",
+    "videoUrl": "https://www.youtube.com/embed/k-g31y8V6P0"
+  }
+]
