@@ -23,9 +23,7 @@ export const onboardingSchema = z.object({
     .min(1, { message: 'City is required.' })
     .max(100, { message: 'City name is too long.' }),
   
-  employmentStatus: z.enum(['employed', 'self-employed', 'business', 'student', 'unemployed'], {
-    errorMap: () => ({ message: 'Please select an employment status.' }),
-  }),
+  employmentStatus: z.enum(['employed', 'self-employed', 'business', 'student', 'unemployed']),
   
   monthlyIncome: z.coerce.number()
     .min(0, { message: 'Monthly income must be 0 or greater.' }),
@@ -33,9 +31,7 @@ export const onboardingSchema = z.object({
   savings: z.coerce.number()
     .min(0, { message: 'Current savings must be 0 or greater.' }),
   
-  riskProfile: z.enum(['low', 'medium', 'high'], {
-    errorMap: () => ({ message: 'Please select a risk profile.' }),
-  }),
+  riskProfile: z.enum(['low', 'medium', 'high']),
   
   goals: z.array(z.string())
     .min(1, { message: 'Please select at least one financial goal.' }),
