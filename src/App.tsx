@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import Header from '@/components/Header';
 import OnboardingPage from '@/components/OnboardingPage';
 import DashboardPage from '@/components/DashboardPage';
 import AdminPage from '@/components/AdminPage';
@@ -8,9 +9,13 @@ import LearningHubPage from '@/components/LearningHubPage';
 import AIChatWidget from '@/components/AIChatWidget';
 import { useUserStore } from '@/store/useUserStore';
 
+
 function App() {
   const loadUser = useUserStore(state => state.loadUser);
   const currentUser = useUserStore(state => state.currentUser);
+  const location = useLocation();
+  const hideHeaderRoutes = ['/admin', '/profile'];
+  const showHeader = currentUser && !hideHeaderRoutes.includes(location.pathname);
 
   // Sync current user state from local storage on launch
   useEffect(() => {
@@ -19,6 +24,7 @@ function App() {
 
   return (
     <Router>
+      {showHeader && <Header />}
       <Routes>
         {/* Onboarding Page */}
         <Route 
